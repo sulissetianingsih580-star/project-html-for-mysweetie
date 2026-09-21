@@ -1,0 +1,154 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:Georgia,serif;
+  background:linear-gradient(135deg,#f7b7ca,#f9d9e3);
+  color:#5b3b46;
+  padding:25px 15px;
+}
+
+.container{
+  width:100%;
+  max-width:520px;
+  margin:auto;
+  text-align:center;
+}
+
+h1{
+  color:#8b4d62;
+  margin:15px 0 8px;
+}
+
+.subtitle{
+  font-size:14px;
+  margin-bottom:20px;
+}
+
+
+/* MUSIK */
+
+.music-box{
+  background:#fffafc;
+  border-radius:18px;
+  padding:20px 18px;
+  margin-bottom:20px;
+  box-shadow:0 8px 25px rgba(100,50,70,.15);
+}
+
+.music-title{
+  font-size:16px;
+  margin-bottom:12px;
+  color:#9a526b;
+}
+
+.music-text{
+  font-size:14px;
+  line-height:1.7;
+  margin:0 0 16px;
+  color:#6f505b;
+}
+
+.music-button{
+  border:0;
+  background:#b96982;
+  color:white;
+  padding:11px 22px;
+  border-radius:25px;
+  font-family:Georgia,serif;
+  cursor:pointer;
+  font-size:14px;
+}
+
+
+/* KARTU */
+
+.cards{
+  display:grid;
+  gap:15px;
+}
+
+.card{
+  background:#fffafc;
+  border-radius:18px;
+  padding:22px 18px;
+  box-shadow:0 8px 25px rgba(100,50,70,.15);
+  cursor:pointer;
+}
+
+.card:active{
+  transform:scale(.98);
+}
+
+.number{
+  font-size:13px;
+  color:#b36b82;
+}
+
+.card h2{
+  margin:6px 0;
+  color:#9a526b;
+  font-size:21px;
+}
+
+.card p{
+  margin:0;
+  font-size:13px;
+  color:#80616c;
+}
+
+.footer{
+  margin-top:22px;
+  font-size:12px;
+}
+
+
+/* PESAN */
+
+.letter{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(74,43,55,.45);
+  padding:20px;
+  overflow-y:auto;
+  z-index:100;
+}
+
+.paper{
+  width:100%;
+  max-width:520px;
+  margin:20px auto;
+  background:#fffdfb;
+  border-radius:14px;
+  padding:28px 24px;
+  box-shadow:0 15px 40px rgba(60,30,40,.25);
+  text-align:left;
+  line-height:1.75;
+  font-size:15px;
+}
+
+.paper h2{
+  text-align:center;
+  color:#a95770;
+  margin-top:0;
+}
+
+.text{
+  white-space:pre-line;
+}
+
+.close{
+  display:block;
+  margin:25px auto 0;
+  border:0;
+  background:#b96982;
+  color:white;
+  padding:10px 22px;
+  border-radius:20px;
+  font-family:Georgia,serif;
+  cursor:pointer;
+}
